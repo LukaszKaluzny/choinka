@@ -13,4 +13,4 @@ function drawTree (pietra) {
 	}
 }
 pietra = prompt ('Podaj ilość pięter');
-drawTree(pietra);
+drawTree (pietra);
