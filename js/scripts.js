@@ -1,16 +1,12 @@
 
-function drawTree (pietra) {
-	for (var i = 1; i <= pietra; i++)
-	{
+function drawTree (floor) {
+	for (var i = 1; i <= floor; i++) {
 		var star = ' ';
-    		for (var j = 1; j <= i; j++)
-    		{
-    			star=star+"*";
-    		}
+    	for (var j = 1; j <= i; j++) {
+    		star += '*';
+    	}
     	console.log(star);
-    	document.write(star);
-    	document.write('<br>');
 	}
 }
-pietra = prompt ('Podaj ilość pięter');
-drawTree (pietra);
+floor = prompt ('Podaj ilość pięter');
+drawTree (floor);
